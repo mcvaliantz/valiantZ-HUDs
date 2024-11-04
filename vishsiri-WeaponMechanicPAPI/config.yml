@@ -1,0 +1,10 @@
+license_id: "qnDbxC1Fl4Utlms9yRMul7ia3"
+
+placeholder_output:
+  selective_fire:
+    0:
+      output: "S"
+    1:
+      output: "B"
+    2:
+      output: "A"

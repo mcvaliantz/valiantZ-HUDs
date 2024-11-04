@@ -1,0 +1,148 @@
+minez-huds_weapon:
+  layers:
+    weapon_ammo_type:
+      text: "%wpm_current_weapon_ammo_type%"
+      font: "minez-weapon_ammo_type"
+      outlined: true
+      align: right
+      offset:
+        x: 7
+        y: -3
+    weapon_ammo_current:
+      text: "%wpm_current_weapon_ammo%"
+      font: "minez-weapon_ammo_have"
+      outlined: true
+      align: left
+      offset:
+        x: 74
+        y: -9
+    weapon_mode:
+      text: "%wpm_current_weapon_selective%"
+      font: "minez-weapon_gun_mode"
+      outlined: true
+      align: right
+      offset:
+        x: 79
+        y: -9
+    weapon_title:
+      text: "%wpm_current_weapon_title%"
+      font: "minez-weapon_title"
+      outlined: true
+      align: right
+      offset:
+        x: 7
+        y: -32
+    weapon_dura:
+      text: "%wpm_current_weapon_durability%"
+      font: "minez-dura_number"
+      outlined: true
+      align: left
+      offset:
+        x: 91
+        y: -32
+    weapon_huds_bg:
+      text: "%wpm_current_weapon%"
+      font: "minez-weapon_huds"
+      outlined: true
+      offset:
+        x: 0
+        y: 0
+minez-huds_stat:
+  layers:
+    blood:
+      texture:
+        path: assets/minez-huds/icon_hud_boold.png
+      align: right
+      offset:
+        x: 0
+        y: 0
+      function:
+        listener: health
+        increment: 24
+        orientation: vertical
+    blood_bg:
+      align: right
+      texture:
+        path: assets/minez-huds/icon_hud_boold.png
+      color: "#363434"
+      offset:
+        x: 0
+        y: 0
+    food:
+      texture:
+        path: assets/minez-huds/icon_hud_food.png
+      align: right
+      offset:
+        x: 30
+        y: 0
+      function:
+        listener: food
+        increment: 24
+        orientation: vertical
+    food_bg:
+      align: right
+      texture:
+        path: assets/minez-huds/icon_hud_food.png
+      color: "#363434"
+      offset:
+        x: 30
+        y: 0
+    stamina:
+      texture:
+        path: assets/minez-huds/icon_hud_stamina.png
+      align: right
+      offset:
+        x: 60
+        y: 0
+      function:
+        listener: food
+        increment: 24
+        orientation: vertical
+    stamina_bg:
+      align: right
+      texture:
+        path: assets/minez-huds/icon_hud_stamina.png
+      color: "#363434"
+      offset:
+        x: 60
+        y: 0
+    water:
+      texture:
+        path: assets/minez-huds/icon_hud_water.png
+      align: right
+      offset:
+        x: 87
+        y: 0
+      function:
+        listener: food
+        increment: 20
+        orientation: vertical
+    water_bg:
+      align: right
+      texture:
+        path: assets/minez-huds/icon_hud_water.png
+      color: "#363434"
+      offset:
+        x: 87
+        y: 0
+    radio_active:
+      scale: 1
+      texture:
+        path: assets/minez-huds/icon_hud_radioactive.png
+      align: right
+      offset:
+        x: 117
+        y: 5
+      function:
+        listener: food
+        increment: 34
+        orientation: vertical
+    radio_active_bg:
+      scale: 1
+      align: right
+      texture:
+        path: assets/minez-huds/icon_hud_radioactive.png
+      color: "#363434"
+      offset:
+        x: 117
+        y: 5
